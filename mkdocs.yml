@@ -1,0 +1,27 @@
+site_name: Home
+
+theme:
+  name: material
+  font:
+    text: noto sans korean
+  features:
+    - navigation.tabs
+
+
+nav:
+  - Home: landing_page.md
+  - Tutoriales: tutoriales.md
+  - Ranking: ranking.md
+
+palette:
+  scheme: default
+  toggle:
+    icon:
+      logo: recycle
+    name: light mode
+  primary: teal
+  accent: deep orange
+
+
+extra_css:
+  - styles/extra.css
